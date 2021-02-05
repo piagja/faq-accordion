@@ -15,13 +15,35 @@
 
   /* dividers */
   --light-grayish-blue: #e7e7e9;
+
+  /* font size */
+  --fontSize: 12px;
 }
 
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 
 html {
+  font-size: var(--fontSize);
+}
+
+body {
+  margin: 0;
   font-family: 'Kumbh Sans', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(var(--soft-violet), var(--soft-blue));
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.wrapper {
+  background: white;
+  border-radius: 30px;
+  height: 500px;
+  width: 920px;
+  display: grid;
+  grid-template-columns: 400px 1fr;
 }
