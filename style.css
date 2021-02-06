@@ -132,4 +132,22 @@ body {
   top: 40%;
   left: -25%;
 }
+
+.active > .answer {
+  display: block;
+  padding-bottom: 0.8rem;
+}
+
+.active img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.active h3 {
+  font-weight: 700;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
 /*# sourceMappingURL=style.css.map */

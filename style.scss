@@ -112,3 +112,18 @@ body {
   top: 40%;
   left: -25%;
 }
+
+.active > .answer {
+  display: block;
+  padding-bottom: 0.8rem;
+}
+
+.active img {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.active h3 {
+  font-weight: 700;
+  transition: all 0.1s;
+}
